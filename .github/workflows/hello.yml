@@ -1,0 +1,30 @@
+# Workflow
+
+# Should Have Name
+name: Hello 
+# on tells when the workflow should run (Give  indentation by tab)
+on : 
+     workflow_dispatch:
+       # Jobs    
+# Jobs
+
+# Should be inside the workflow
+jobs:
+ # 1st job ( give idenataion)
+
+
+ say-hello:
+
+ # creates a ephermal conatiner with ubuntu running 
+      runs-on: ubuntu-latest
+      # that ephermal conatiner will have the steps to execute 
+ steps:
+   -name: Say hello to everyone 
+   run: echo "Hello Dosto"
+# Steps
+
+# Should be insite the job
+
+# Actions
+
+# Should be inside the Steps
